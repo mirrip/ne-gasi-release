@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NE-GASI - Скачать APK</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255,255,255,0.95);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 450px;
+            width: 100%;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            color: #1a1a2e;
+            margin-bottom: 5px;
+            font-size: 32px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .apk-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            color: white;
+        }
+        .apk-icon { font-size: 50px; margin-bottom: 15px; }
+        .apk-name { font-size: 20px; font-weight: bold; margin-bottom: 5px; }
+        .apk-version { font-size: 14px; opacity: 0.9; }
+        .apk-size { font-size: 12px; opacity: 0.8; margin-top: 10px; }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 10px 30px rgba(17,153,142,0.4);
+        }
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(17,153,142,0.5);
+        }
+        .warning {
+            margin-top: 25px;
+            padding: 15px;
+            background: #fff3cd;
+            border-radius: 10px;
+            font-size: 12px;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🎮</div>
+        <h1>NE-GASI</h1>
+        <p class="subtitle">Android Game</p>
+        
+        <div class="apk-card">
+            <div class="apk-icon">📱</div>
+            <div class="apk-name">NE-GASI Game</div>
+            <div class="apk-version">Debug Version</div>
+            <div class="apk-size">⬇️ Нажмите кнопку ниже для скачивания</div>
+        </div>
+        
+        <a href="NE-GASI-debug.apk" class="download-btn" download>
+            ⬇️ Скачать APK
+        </a>
+        
+        <div class="warning">
+            ⚠️ Для установки APK разрешите "Неизвестные источники" в настройках Android
+        </div>
+    </div>
+</body>
+</html>
